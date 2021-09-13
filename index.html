@@ -97,7 +97,7 @@
         </div>   
         <script>
                 // Get the modal
-                
+                    document.getElementById("mission").style.visibility="hidden"
                     var modal = document.getElementById("mission");
                 
                     // Get the button that opens the modal
@@ -110,11 +110,13 @@
 
                     btn.onclick = function() {
                     modal.style.display = "block";
+                    document.getElementById("mission").style.visibility="visible"
                     }
                     
                     // When the user clicks on <span> (x), close the modal
                     span.onclick = function() {
                     modal.style.display = "none";
+                    document.getElementById("mission").style.visibility="hidden"
                     }
                 
                 
@@ -147,22 +149,7 @@
               
                       
     </div>
-        
-        
-        
     
-                 
-  
-   
-        
-
-
-       
-
-
-        
-
-
      </header>  
 
 </body>
